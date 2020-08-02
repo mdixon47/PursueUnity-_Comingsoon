@@ -100,10 +100,10 @@ License: https://themeforest.net/licenses/standard
 				transition: 'fade',
 				transitionDuration: 1000,
 				slides: [
-					{ src: 'demo/images/image-15.jpg' },
-					{ src: 'demo/images/image-16.jpg' },
-					{ src: 'demo/images/image-17.jpg' },
-					{ src: 'demo/images/image-4.jpg' }
+					{ src: 'assets/images/chicagoonthelake.jpg' },
+					{ src: 'assets/images/downtownchi_river.jpg' },
+					{ src: 'assets/images/chicagoskyline.jpg' },
+					{ src: 'assets/images/downtownchi_street.jpg' }
 				]
 			});
 		}
