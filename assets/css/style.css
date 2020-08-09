@@ -55,7 +55,7 @@ body {
 
 section {
 	position: relative;
-	padding: 3rem 0;
+	padding: 50px 0 50px 0;
 }
 
 .container,
@@ -748,11 +748,11 @@ blockquote:last-child {
 	}
 	
 	.page-slide section:first-child {
-		padding-top: calc(3rem + 130px)
+		padding-top: calc(2rem + 100px)
 	}
 	
 	.page-slide section:last-child {
-		padding-bottom: calc(3rem + 130px)
+		padding-bottom: calc(2rem + 100px)
 	}
 }
 
