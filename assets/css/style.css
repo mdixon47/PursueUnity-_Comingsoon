@@ -606,7 +606,7 @@ blockquote:last-child {
 [4. Footer]
 */
 .site-footer {
-	position: relative;
+	position: fixed;
 	background: #fff;
 	color: #151719;
 	padding-top: 3rem;
