@@ -730,6 +730,7 @@ blockquote:last-child {
 	.page-slide {
 		display: none;
 		opacity: 0;
+		margin-bottom: 100px;
 		transform: translateY(20px);
 		transition: opacity .3s linear, transform .3s linear;
 	}
@@ -747,13 +748,13 @@ blockquote:last-child {
 		min-height: 100vh;
 	}
 	
-	.page-slide section:first-child {
+	/* .page-slide section:first-child {
 		padding-top: calc(2rem + 100px)
 	}
 	
 	.page-slide section:last-child {
 		padding-bottom: calc(2rem + 100px)
-	}
+	} */
 }
 
 /*------------------------------------------------------------------
