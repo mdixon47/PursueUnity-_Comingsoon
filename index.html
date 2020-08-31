@@ -1,407 +1,1089 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-	<head>
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Pursue Scholars Presents: Pursue Unity</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="HandheldFriendly" content="true" />
+    <link rel="stylesheet" href="assets/css/master.css" />
+    <!-- SWITCHER-->
+    <!-- 
+    <link href="assets/plugins/switcher/css/switcher.css" rel="stylesheet" id="switcher-css" />
+    <link href="assets/plugins/switcher/css/color1.css" rel="alternate stylesheet" title="color1" />
+    <link href="assets/plugins/switcher/css/color2.css" rel="alternate stylesheet" title="color2" />
+    <link href="assets/plugins/switcher/css/color3.css" rel="alternate stylesheet" title="color3" />
+    <link href="assets/plugins/switcher/css/color4.css" rel="alternate stylesheet" title="color4" /> 
+-->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon.ico" />
+    <!--[if lt IE 9 ]>
+<script src="assets/js/separate-js/html5shiv-3.7.2.min.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
+<![endif]-->
+</head>
 
-		<title>Pursue Scholars Presents Pursue Unity</title>
+<body>
+    <!-- Loader-->
+    <div id="page-preloader"><span class="spinner border-t_second_b border-t_prim_a"></span>
+    </div>
+    <!-- Loader end-->
+    <div class="l-theme animated-css" data-header="sticky" data-header-top="200" data-canvas="container">
+        <!-- Start Switcher-->
+<!--         
+        <div class="switcher-wrapper">
+            <div class="demo_changer">
+                <div class="demo-icon color-primary"><i class="fa fa-cog fa-spin fa-2x"></i>
+                </div>
+                <div class="form_holder">
+                    <div class="predefined_styles">
+                        <div class="skin-theme-switcher">
+                            <h4>Color</h4>
+                            <a class="styleswitch" href="javascript:void(0);" data-switchcolor="color1" style="background-color:#50903e"></a>
+                            <a class="styleswitch" href="javascript:void(0);" data-switchcolor="color2" style="background-color:#29d2a0"></a>
+                            <a class="styleswitch" href="javascript:void(0);" data-switchcolor="color3" style="background-color:#d2a029"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- end switcher-->
+        <!-- ==========================-->
+        <!-- SEARCH MODAL-->
+        <!-- ==========================-->
 
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="">
-		<meta name="keywords" content="">
-		<meta name="author" content="">
+        <!-- 
+            <div class="header-search open-search">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                        <div class="navbar-search">
+                            <form class="search-global">
+                                <input class="search-global__input" type="text" placeholder="Type to search" autocomplete="off" name="s" value="" />
+                                <button class="search-global__btn"><i class="icon stroke icon-Search"></i>
+                                </button>
+                                <div class="search-global__note">Begin typing your search above and press return to search.</div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="search-close close" type="button"><i class="fa fa-times"></i>
+            </button>
+        </div> 
+        -->
 
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/style.css">
-		<link rel="stylesheet" href="assets/css/utilities.css">
+        <!-- ==========================-->
+        <!-- MOBILE MENU-->
+        <!-- ==========================-->
+        <div data-off-canvas="mobile-slidebar left overlay">
 
-		<link rel="stylesheet" href="assets/css/custom.css">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="event.html">Event</a></li>
+                <li><a href="https://projectworldimpact.com/crowdfunding/pursue-unity-western-walk">Donate</a></li>
+                <li><a href="sponsors.html">Sponsors</a></li>
+            </ul>
+        </div>
 
-		<link rel="stylesheet" href="assets/css/vegas.min.css" type="text/css">
-		<link rel="stylesheet" href="assets/css/flexslider.css" type="text/css">
-		<link rel="stylesheet" href="assets/css/animate.min.css" type="text/css">
-		<link rel="stylesheet" href="assets/css/fontawesome/all.min.css" type="text/css">
-		<link rel="stylesheet" href="assets/css/ionicons.min.css" type="text/css">
+        <!-- ==========================-->
+        <!-- FULL SCREEN MENU-->
+        <!-- ==========================-->
+        <div class="wrap-fixed-menu" id="fixedMenu">
+            <nav class="fullscreen-center-menu">
 
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:100,200,300,400,500,700" rel="stylesheet">
-
-		<link rel="shortcut icon" href="assets/favicon/favicon.ico">
-		<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-
-		<script src="assets/js/modernizr-custom.js"></script>
-
-		
-	</head>
-	<body class="slideshow-background">
-
-		<div id="preloader" class="preloader preloader-dark">
-			<div class="loader-status">
-				<div class="circle-side"></div>
-			</div>
-		</div>
-
-		<div class="global-overlay">
-			<div class="overlay-inner bg-dark opacity-45"></div>
-		</div>
-
-		<div class="site-container">
-
-			<div id="top"></div>
-
-			<!-- Site header -->
-			<header class="site-header header-mobile-light">
-				<div class="header-brand">
-					<!-- Logo -->
-					<a class="logo" href="#">
-						<img class="logo-light" src="assets/images/PS logowt.png" alt="">
-						<img class="logo-dark" src="assets/images/PS logowt.png" alt="">
-					</a>
-					<button type="button" class="nav-toggle" id="navigation-toggle">
-						<span></span>
-						<span></span>
-						<span></span>
-					</button>
-				</div>
-				<!-- Site navigation -->
-				<nav id="navigation" class="site-nav">
-					<div class="nav-container">
-						<ul>
-							<li><a href="#home" class="move-to">Home</a></li>
-							<li><a href="#subscribe" class="move-to">Subscribe</a></li>
-							<li><a href="#about" class="move-to">About</a></li>
-							<!-- 
-								Services nav
-								<li><a href="#services" class="move-to">Services</a></li> 
-							-->
-						</ul>
-					</div>
-				</nav>
-			</header>
-
-			<nav class="tooltip-nav">
-				<ul>
-					<li><a href="#home" class="move-to" data-toggle="tooltip" data-placement="left" title="Home"><span></span></a></li>
-					<li><a href="#about" class="move-to" data-toggle="tooltip" data-placement="left" title="About"><span></span></a></li>
-					<li><a href="#subscribe" class="move-to" data-toggle="tooltip" data-placement="left" title="Subscribe"><span></span></a></li>
-					<!-- 
-						Nav tolltip removed
-						<li><a href="#services" class="move-to" data-toggle="tooltip" data-placement="left" title="Services"><span></span></a></li> 
-					-->
-			
-				</ul>
-			</nav>
-
-			<!-- Page content -->
-			<div class="page-content">
-
-				<!-- Home -->
-				<div class="page-slide" id="home">
-					<section class="minh--80vh fullscreen-lg d-flex align-items-center text-white">
-						<div class="container">
-							<div class="row">
-								<div class="col-12 col-lg-10 mx-lg-auto text-center">
-									<h1 class="text-white mb-2 animated" data-animation="fadeInUp" data-animation-delay="150">Pursue Scholars presents:</h1>
-									<img  data-animation="fadeInUp" data-animation-delay="150" src="assets/images/PULogo.png" alt="" style="width:120px;height:120px;">
-									<h4 class="text-white mb-3 mt-2 animated" data-animation="fadeInUp" data-animation-delay="150">Pursue Unity is a physical endeavour with the goal of promoting oneness and healing in light of COVID-19, social unrest, and the pervading divisions that persist in our city and in our world. 
-
-Our Hope with the Pursue Unity project is to raise funds to provide critical mental health and leadership resources to the scholars we serve.</h4>
-									<a href="#subscribe" class="btn btn-white move-to animated" data-animation="fadeInUp" data-animation-delay="300">Subscribe</a>
-									<a href="#about" class="btn btn-link btn-link-white move-to animated" data-animation="fadeInUp" data-animation-delay="300">Learn more</a>
-									<div class="countdown text-white mt-2 mx-auto animated" data-animation="fadeInUp" data-countdown="2020/09/01 12:00:00"></div>
-								</div>
-							</div>
-						</div>
-					</section>
-				</div>
-				
-				<!-- Subscribe -->
-				<div class="page-slide" id="subscribe">
-					<section class="fullscreen-lg d-lg-flex align-items-lg-center text-white">
-						<div class="container">
-							<div class="row mb-5">
-								<div class="col-12 col-lg-8 mx-lg-auto">
-									<h1 class="text-center animated" data-animation="fadeInUp">Subscribe To Our Newsletter</h1>
-									<div class="divider divider-alt bg-white mx-auto animated" data-animation="fadeInUp" data-animation-delay="200"></div>
-									<h4 class="text-center animated" data-animation="fadeInUp" data-animation-delay="400">Please subscribe to the Pursue Scholars' Newsletter for detailed information about the organization and the upcoming events</h4>
-								</div>
-							</div>
-							<div class="row animated" data-animation="fadeInUp" data-animation-delay="600">
-								<div class="col-12 col-lg-6 mx-lg-auto">	
-									<div class="subscribe-form">
-										<form action="https://pursuescholars.us1.list-manage.com/subscribe/post?u=eff0f7973e318d9061a7b558c&amp;id=107fc1bbda" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-											<div class="row">
-
-												<div class="form-process"></div>
-
-												<div class="col-12 col-lg-9">
-													<div class="form-item-container">
-														<input type="email" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" placeholder="Enter Your Email Address" class="form-item required mc-field-group">
-													</div>
-												</div>
-
-												<div id="mce-responses" class="clear">
-														<div class="response" id="mce-error-response" style="display:none"></div>
-														<div class="response" id="mce-success-response" style="display:none"></div>
-												</div> 
-
-												<div class="col-12 d-none">
-													<input type="text" id="sf-botcheck" name="sf-botcheck" value="" class="form-item">
-												</div>
-
-												<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    											<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_eff0f7973e318d9061a7b558c_107fc1bbda" tabindex="-1" value=""></div>
-    											
-												<div class="col-12 col-lg-3">
-													<button class="btn btn-white clear" type="submit" id="mc-embedded-subscribe" name="subscribe">Subscribe</button>
-												</div>
-
-											</div>
-										</form>
-										<div class="subscribe-form-result pt-2"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-				</div>
+                <div class="menu-main-menu-container">
 
 
-				<!-- About -->
-				<div class="page-slide" id="about">
-					<section class="minh--80vh fullscreen-lg d-flex align-items-center text-white">
-						<div class="container">
-							<div class="row">
-								<div class="col-12 col-lg-10 mx-lg-auto">
-									<h1 class="text-center animated" data-animation="fadeInUp">About Us</h1>
-									<div class="divider divider-alt bg-white mx-auto animated" data-animation="fadeInUp" data-animation-delay="200"></div>
-									<h4 class="text-center mb-2 animated" data-animation="fadeInUp" data-animation-delay="400">Pursue Scholars not only identifies young leaders who have a heart for the community, resources them and provides extensive leadership training. Pursue positions them to lead on campus, so that when they return home, they have real-world experience and proven leadership to build the communities they love so dearly.</h4>
-									<div class="row mb-4">
-										<div class="col-12 col-lg-6 mb-1 mb-lg-0 animated" data-animation="fadeInUp" data-animation-delay="600">
-											<div class="feature-block d-flex">
-												<div class="feature-icon">
-													<div>
-														<ion-icon name="contacts"></ion-icon>
-													</div>
-												</div>
-												<div class="feature-content ml-4">
-													<h4>Scholar Mental Health Resources </h4>
-													<p>Funds raised will be used to create resources like community panels that will be available to our scholars and their families,as well as contracted mental health professionals that will be available to meet with our scholars.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col-12 col-lg-6 animated" data-animation="fadeInUp" data-animation-delay="800">
-											<div class="feature-block d-flex">
-												<div class="feature-icon">
-													<div>
-														<ion-icon name="pulse"></ion-icon>
-													</div>
-												</div>
-												<div class="feature-content ml-4">
-													<h4>Act Six Leadership Development Staff</h4>
-													<p>We desire to add an additional staff member that will aid in the recruitment, selection, training and support of our Act Six Scholars who are receiving full scholarships to our partner institution, Taylor University.</p>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-12 col-lg-6 mb-4 mb-lg-0 animated" data-animation="fadeInUp" data-animation-delay="1000">
-											<div class="feature-block d-flex">
-												<div class="feature-icon">
-													<div>
-														<ion-icon name="battery-charging"></ion-icon>
-													</div>
-												</div>
-												<div class="feature-content ml-4">
-													<h4>College Scholarships</h4>
-													<p>More incremental scholarships for our Daniel Scholars that persist toward graduation. The scholarship amounts vary from $500 - $5000 scholarships for each of our Daniel Scholars</p>
-												</div>
-											</div>
-										</div>
-										<div class="col-12 col-lg-6 animated" data-animation="fadeInUp" data-animation-delay="1200">
-											<div class="feature-block d-flex">
-												<div class="feature-icon">
-													<div>
-														<ion-icon name="reverse-camera"></ion-icon>
-													</div>
-												</div>
-												<div class="feature-content ml-4">
-													<h4>Leadership Development and ReFresh Retreats</h4>
-													<p>From networking to learning how to rest well, these retreats have versatile themes that assist our scholars in their development as whole leaders. </p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-				</div>
-
-				<!-- Services -->
-				
-				<!-- <div class="page-slide" id="services">
-					<section class="minh--80vh fullscreen-lg d-flex align-items-center text-white">
-						<div class="container">
-							<div class="row">
-								<div class="col-12 col-lg-10 mx-lg-auto">
-									<h2 class="text-center animated" data-animation="fadeInUp">Services</h2>
-									<div class="divider divider-alt bg-white mx-auto animated" data-animation="fadeInUp" data-animation-delay="200"></div>
-									<p class="text-center mb-5 animated" data-animation="fadeInUp" data-animation-delay="400">Integer luctus nunc vel sem feugiat semper. Etiam tristique nunc sapien, vitae maximus nibh lobortis eget. Ut a ipsum nisl. Proin eget iaculis eros, sed ullamcorper mauris. Nullam sagittis congue neque, sed egestas massa placerat eu.</p>
-									<div class="row">
-										<div class="col-12 col-lg-4 mb-4 mb-lg-0 animated" data-animation="fadeInUp" data-animation-delay="600">
-											<div class="feature-block">
-												<div class="feature-icon icon-lg mb-4">
-													<div>
-														<i class="ion-ios-book-outline"></i>
-													</div>
-												</div>
-												<div class="feature-content">
-													<h4>Well Documented</h4>
-													<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col-12 col-lg-4 mb-lg-0 animated" data-animation="fadeInUp" data-animation-delay="800">
-											<div class="feature-block">
-												<div class="feature-icon icon-lg mb-4">
-													<div>
-														<i class="ion-ios-monitor-outline"></i>
-													</div>
-												</div>
-												<div class="feature-content">
-													<h4>Fully Responsive</h4>
-													<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col-12 col-lg-4 animated" data-animation="fadeInUp" data-animation-delay="1000">
-											<div class="feature-block">
-												<div class="feature-icon icon-lg mb-4">
-													<div>
-														<i class="ion-ios-box-outline"></i>
-													</div>
-												</div>
-												<div class="feature-content">
-													<h4>Amazing Features</h4>
-													<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div> -->
-					</section>
-				</div>
-
-				<!-- Contact -->
-
-				<!-- <div class="page-slide" id="contact">
-					<section class="minh--80vh fullscreen-lg d-flex align-items-center text-white">
-						<div class="container">
-							<div class="row mb-5">
-								<div class="col-12 col-lg-8 mx-lg-auto">
-									<h2 class="text-center animated" data-animation="fadeInUp">Contact</h2>
-									<div class="divider divider-alt bg-white mx-auto animated" data-animation="fadeInUp" data-animation-delay="200"></div>
-									<p class="text-center animated" data-animation="fadeInUp" data-animation-delay="400">Want to say hello? Want to know more about us? Give us a call or drop us an email and we will get back to you as soon as we can.</p>
-								</div>
-							</div>
-							<div class="row animated" data-animation="fadeInUp" data-animation-delay="600">
-								<div class="col-12 col-lg-10 mx-lg-auto">		
-									<div class="contact-form">
-										<form class="mb-0" id="cf" name="cf" action="include/sendemail.php" method="post">
-											<div class="row">
-
-												<div class="form-process"></div>
-
-												<div class="col-12 col-lg-6">
-													<div class="form-item-container">
-														<input type="text" id="cf-name" name="cf-name" placeholder="Enter your name" class="form-item required">
-													</div>
-												</div>
-
-												<div class="col-12 col-lg-6">
-													<div class="form-item-container">
-														<input type="email" id="cf-email" name="cf-email" placeholder="Enter your email address" class="form-item required">
-													</div>
-												</div>
-
-												<div class="col-12">
-													<div class="form-item-container">
-														<input type="text" id="cf-subject" name="cf-subject" placeholder="Subject (Optional)" class="form-item">
-													</div>
-												</div>
-
-												<div class="col-12">
-													<div class="form-item-container">
-														<textarea name="cf-message" id="cf-message" placeholder="Here goes your message" class="form-item required" rows="7"></textarea>
-													</div>
-												</div>
-
-												<div class="col-12 d-none">
-													<div class="form-item-container">
-														<input type="text" id="cf-botcheck" name="cf-botcheck" value="" class="form-item">
-													</div>
-												</div>
-
-												<div class="col-12 text-center">
-													<button class="btn btn-white" type="submit" id="cf-submit" name="cf-submit">Send Message</button>
-												</div>
-
-											</div>
-										</form>
-										<div class="contact-form-result pt-1"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-				</div>
-
-			</div> -->
-
-			<footer class="site-footer">
-				<nav class="social-nav">
-					<ul>
-						<li class="animated" data-animation="fadeInRightBig" data-animation-delay="800">
-							<a href="https://www.facebook.com/pursuescholars/" target="blank"><i class="fab fa-facebook-f"></i></a>
-						</li>
-						<li class="animated" data-animation="fadeInRightBig" data-animation-delay="1250">
-							<a href="https://www.linkedin.com/groups/4796479/" target="blank"><i class="fab fa-linkedin-in"></i></a>
-						</li>
-						<li class="animated" data-animation="fadeInRightBig" data-animation-delay="1400">
-							<a href="https://www.instagram.com/pursuescholars/" target="blank"><i class="fab fa-instagram"></i></a>
-						</li>
-					</ul> 
-				</nav>
-				<div class="copyright">
-					<div class="container text-center">
-						<p>© 2020 Pursue Scholars - All Rights Reserved</p>
-					</div>
-				</div>
-			</footer>
-
-		</div>
-
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/bootstrap.bundle.min.js"></script>
-		<script src="assets/js/jquery.easing.js"></script>
-		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
-		<script src="assets/js/vegas.min.js"></script>
-		<script src="assets/js/jquery.waypoints.min.js"></script>
-		<script src="assets/js/jquery.validate.min.js"></script>
-		<script src="assets/js/jquery.form.min.js"></script>
-		<script src="assets/js/jquery.countdown.min.js"></script>
-		<script src="assets/js/jquery.mb.YTPlayer.js"></script>
-		<script src="assets/js/granim.min.js"></script>
-		<script src="assets/js/jquery.nicescroll.min.js"></script>
-		<script src="assets/js/jquery.smooth-scroll.min.js"></script>
-		<script src="assets/js/jquery.flexslider-min.js"></script>
-		<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-		<script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="event.html">Event</a></li>
+                        <li><a href="https://projectworldimpact.com/crowdfunding/pursue-unity-western-walk" target="blank">Donate</a></li>
+                        <li><a href="sponsors.html">Sponsors</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfnlFgtt7T8P_3VHL9Rc8CUYoXW2FL1NXryWpGfkDC7AeYymw/viewform">Volunteer</a></li>
+                    </ul>
 
 
-		<script src="assets/js/main.js"></script>
 
-	</body>
+                </div>
+            </nav>
+            <button type="button" class="fullmenu-close"><i class="fa fa-times"></i></button>
+        </div>
+
+
+        <header class="header header-5 header-topbar-hidden header-boxed-width navbar-fixed-top header-background-trans header-color-white header-logo-white header-navibox-1-left header-navibox-3-right header-navibox-4-right">
+            <div class="container container-boxed-width">
+                <!-- <div class="top-bar">
+                    <div class="container">
+                        <div class="header-topbarbox-1">
+                            <ul>
+                              <li>WE HELPING YOU: INFO@YOURSITE.COM</li>
+                            </ul>
+                        </div>
+                        <div class="header-topbarbox-2">
+                            <ul class="social-links">
+                                <li><a href="/" target="_blank"><i class="social_icons fa fa-facebook-square"></i></a>
+                                </li>
+                                <li><a href="/" target="_blank"><i class="social_icons fa fa-linkedin-square"></i></a>
+                                </li>
+                                <li><a href="/" target="_blank"><i class="social_icons fa fa-vimeo-square"></i></a>
+                                </li>
+                                <li><a href="/" target="_blank"><i class="social_icons fa fa-twitter-square"></i></a>
+                                </li>
+                                <li class="li-last"><a href="/" target="_blank"><i class="social_icons fa fa-tumblr-square"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+                <nav class="navbar" id="nav">
+                    <div class="container">
+                        <div class="header-navibox-1">
+                            <!-- Mobile Trigger Start-->
+                            <button class="menu-mobile-button visible-xs-block js-toggle-mobile-slidebar toggle-menu-button"><i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i>
+                            </button>
+                            <!-- Mobile Trigger End-->
+                            <a class="mt-1 mb-0 navbar-brand scroll" href="index.html">
+                                <img class="normal-logo" src="assets/images/PUELogo.png" style="width:180px;height:60px;" alt="logo" />
+                                <img class="scroll-logo hidden-xs" src="assets/images/PUEBLogo.png" style="width:180px;height:60px;" alt="logo" />
+                            </a>
+                        </div>
+
+                        <!-- 
+                            <div class="header-navibox-3">
+                            <ul class="nav navbar-nav hidden-xs clearfix vcenter">
+                                <li><a class="btn_header_search" href="#"><i class="icon fa fa-search"></i></a>
+                                </li>
+                                <li>
+                                    <button class="js-toggle-screen toggle-menu-button"><i class="toggle-menu-button-icon"><span></span><span></span><span></span><span></span><span></span><span></span></i>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        -->
+
+                        <!-- 
+                            <div class="header-navibox-4">
+                                <div class="header-cart"><a href="#"><i class="icon fa fa-shopping-basket" aria-hidden="true"></i></a><span class="header-cart-count bg-primary">3</span>
+                                </div>
+                            </div>
+                        -->
+                        <div class="header-navibox-2">
+                            <ul class="yamm main-menu nav navbar-nav">
+                                <li><a href="index.html" >Home</a></li>
+                                <li><a href="event.html">Event</a></li>
+                                <li><a href="https://projectworldimpact.com/crowdfunding/pursue-unity-western-walk" target="blank">Donate</a></li>
+                                <li><a href="sponsors.html">Sponsors</a></li>
+                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfnlFgtt7T8P_3VHL9Rc8CUYoXW2FL1NXryWpGfkDC7AeYymw/viewform">Volunteer</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- end .header-->
+        <div class="section-main-slider">
+            <div class="main-slider slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="1080px" data-slider-arrows="true" data-slider-buttons="false">
+                <div class="sp-slides">
+                    <!-- Slide 1-->
+                    <div class="sp-slide">
+                        <video autoplay muted loop playsinline height="1080px" width="2000px" id="puVideo" class="sp-image">
+                            <source src="https://res.cloudinary.com/theimagecloud/video/upload/v1598751579/puVideo_lqzizl.mp4" type="video/mp4">
+                        </video>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="main-slider__wrap">
+                                        <div class="main-slider__subtitle sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="800" data-show-delay="400" data-hide-delay="400">Pursue Scholors Presents</div>
+                                        <h2 class="main-slider__title sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="800" data-show-delay="400" data-hide-delay="400">Pursue Unity</h2>
+                                        <div class="main-slider__info sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">Pursue Unity is a physical endeavour with the goal of promoting oneness and healing in light of COVID-19, social unrest, and the pervading divisions that persist in our city and in our world.</div>
+                                        <div class="sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="1200" data-show-delay="2000" data-hide-delay="400"><a class="main-slider__btn btn btn-white" href="#about"><i class="icon"></i> Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2-->
+                    <div class="sp-slide">
+                        <img class="sp-image" src="assets/images/background2.jpg" alt="slider" />
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="main-slider__wrap">
+                                        <div class="main-slider__subtitle sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="800" data-show-delay="400" data-hide-delay="400">Pursue Unity Project</div>
+                                        <h2 class="main-slider__title sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="800" data-show-delay="400" data-hide-delay="400">Our Hope</h2>
+                                        <div class="main-slider__info sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">Providing critical resources that empower our emerging urban leaders to succeed in their college career and beyond! </div>
+                                        <div class="sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="1200" data-show-delay="2000" data-hide-delay="400"><a class="main-slider__btn btn btn-white" href="https://projectworldimpact.com/crowdfunding/pursue-unity-western-walk"><i class="icon"></i> Donate Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3-->
+                    <div class="sp-slide">
+                        <img class="sp-image" src="assets/images/PursueScholars2020-152.JPG" alt="slider" />
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="main-slider__wrap">
+                                        <div class="main-slider__subtitle sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="800" data-show-delay="400" data-hide-delay="400">Our Goal</div>
+                                        <h2 class="main-slider__title sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="800" data-show-delay="400" data-hide-delay="400">$50,000</h2>
+                                        <div class="main-slider__info sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">The proceeds from this event will go to provide college scholarships, leadership development resources and mental health resources for our scholars! 
+                                        </div>
+                                        <div class="sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="1200" data-show-delay="2000" data-hide-delay="400"><a class="main-slider__btn btn btn-white" href="https://projectworldimpact.com/crowdfunding/pursue-unity-western-walk" target="blank"><i class="icon"></i>Donate Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 4-->
+                    <div class="sp-slide">
+                        <img class="sp-image" src="assets/images/background4.jpg" alt="slider" />
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="main-slider__wrap">
+                                        <div class="main-slider__subtitle sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="800" data-show-delay="400" data-hide-delay="400">Thank you to the Soderquist Family Foundation</div>
+                                        <h2 class="main-slider__title sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="800" data-show-delay="400" data-hide-delay="400">Leading with Generosity</h2>
+                                        <div class="main-slider__info sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="2000" data-show-delay="1200" data-hide-delay="400">The Soderquist Family Foundation donated a $25k matching grant to Pursue Unity's $50,000 goal! Will you help us get the rest of the way?</div>
+                                        <div class="sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration="1200" data-show-delay="2000" data-hide-delay="400"><a class="main-slider__btn btn btn-white" href="https://projectworldimpact.com/crowdfunding/pursue-unity-western-walk"><i class="icon"></i> Donate Here</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end .main-slider-->
+        </div>
+        <section id="about" class="section-default">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="ui-decor-1"></div>
+                        <div class="ui-slogan">What does it mean to Pursue Unity? 
+                        </div>
+                        <h2 class="mb-0 ui-title-block ui-title-block_lg_mrg-btm text-primary"></h2>
+                        <p>At Pursue Scholars, what it means to “Pursue Unity” is to holistically invest in the leaders of tomorrow that will unify us!
+                        </p>
+                        <p>We believe that the scholars we have the privilege to serve and support are critical to binding the wounds of division that have been so aggravated by recent events in our city and in our nation.
+                        </p>
+                        <p>To symbolize this, on September 26th -- Solomon Dixon, The Act Six Coordinator at Pursue Scholars, will undertake a symbolic walk across the entire city of Chicago in order to raise funds for these scholars. He will travers the entire 24 miles of the historic Western avenue, beginning at 119th st on the South Side and ending at Howard St on the North Side! This walk symbolizes that though we are diverse and often segregated, that we are One Chicago and that there is greatness and beauty no matter where you find your feet.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="img-group-1">
+                            
+                            <div class="img-decor-btm">
+                                <video class="pull-right img-responsive" controls width="1000" height="1100" id="puVideo" class="sp-image">
+                                    <source src="https://res.cloudinary.com/theimagecloud/video/upload/v1598751579/puVideo_lqzizl.mp4" type="video/mp4" alt="Pursue Unity Video">
+                                </video>
+                                <div class="ui-decor-1 bg-primary"></div>
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section-area text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="b-blockquote b-blockquote-1">
+                            <blockquote>
+                                <p>“Pursue Unity is a physical endeavour with the goal of promoting oneness and healing in light of COVID-19, social unrest, and the pervading divisions that persist in our city and in our world. Our hope with the Pursue Unity project is to raise funds to provide critical mental health and leadership resources to the scholars we serve.
+                                </span>&nbsp;”</p>
+                                <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Pursue Unity Mission Statement</span></cite>
+                            </blockquote>
+                        </div>
+                        <!-- end .b-blockquote-->
+                        <div class="ui-decor-1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-default">
+            <div class="container">
+                <div class="row">
+                    <div class="ui-title-block text-center">Our Goal : $50,000 -- This will help fund the following initiatives: </div>
+                    <div class="col-md-3">
+                        <section class="b-advantages b-advantages-1  wow  fadeIn" data-wow-duration="1s" data-wow-delay="1s"><i class="b-advantages__icon icon-grad flaticon-cogwheel"></i>
+                            
+                            <h3 class="b-advantages__title ui-title-inner">College Scholarships</h3>
+                            <div class="b-advantages__info">More incremental scholarships for our Daniel Scholars that persist toward graduation. The scholarship amounts vary from $500 - $5000 scholarships for each of our Daniel Scholars</div>
+                        </section>
+                        <!-- end .b-advantages-->
+                    </div>
+                    <div class="col-md-3">
+                        <section class="b-advantages b-advantages-1  wow  fadeIn" data-wow-duration="1s" data-wow-delay="1.3s"><i class="b-advantages__icon icon-grad flaticon-computer"></i>
+
+                            <h3 class="b-advantages__title ui-title-inner">Leadership Development and ReFresh Retreats</h3>
+                            <div class="b-advantages__info">From networking to learning how to rest well, these retreats have versatile themes that assist our scholars in their development as whole leaders.</div>
+                        </section>
+                        <!-- end .b-advantages-->
+                    </div>
+                    <div class="col-md-3">
+                        <section class="b-advantages b-advantages-1  wow  fadeIn" data-wow-duration="1s" data-wow-delay="1.6s"><i class="b-advantages__icon icon-grad flaticon-luxury"></i>
+                            <h3 class="b-advantages__title ui-title-inner">Scholar Mental Health Resources</h3>
+                            <div class="b-advantages__info">Funds raised will be used to create resources like community panels that will be available to our scholars and their families,as well as contracted mental health professionals that will be available to meet with our scholars.</div>
+                        </section>
+                        <!-- end .b-advantages-->
+                    </div>
+                    <div class="col-md-3">
+                        <section class="b-advantages b-advantages-1  wow  fadeIn" data-wow-duration="1s" data-wow-delay="1s"><i class="b-advantages__icon icon-grad flaticon-technology"></i>
+                            <h3 class="b-advantages__title ui-title-inner">Act Six Leadership Development Staff</h3>
+                            <div class="b-advantages__info">We desire to add an additional staff member that will aid in the recruitment, selection, training and support of our Act Six Scholars who are receiving full scholarships to our partner institution, Taylor University.</div>
+                        </section>
+                        <!-- end .b-advantages-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="section-default bg-grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="ui-decor-1"></div>
+                        <div class="ui-subtitle-block"></div>
+                        <div class="ui-slogan">Pursue Scholors</div>
+                        <h2 class="ui-title-block text-primary">Our Emerging Urban Leaders</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="b-isotope b-isotope-1">
+                            <ul class="b-isotope-grid grid list-unstyled">
+                                <li class="grid-sizer"></li>
+                                <li class="grid-item design photography ui animation">
+                                    <ul class="b-isotope-filter list-inline">
+                                        <!-- <li class="current"><a href="" data-filter="*">all</a>
+                                        </li>
+                                        <li><a href="" data-filter=".design">web design</a>
+                                        </li>
+                                        <li><a href="" data-filter=".photography">photography</a>
+                                        </li>
+                                        <li><a href="" data-filter=".ui">ui ux</a>
+                                        </li>
+                                        <li><a href="" data-filter=".animation">animation</a>
+                                        </li> -->
+                                    </ul>
+                                </li>
+                                <li class="b-isotope-grid__item grid-item design">
+                                    <div class="b-isotope-grid__img effect-active">
+                                        <img src="assets/images/scholars/Victor-Rodriguiz.jpg" alt="foto" />
+                                    </div><span class="b-isotope-grid__wrap-info bg-grad-1"><span class="b-isotope-grid__info"><a class="icon fa fa-link" href="home.html"></a><a class="icon fa fa-search popup-modal" href="assets/images/scholars/Victor-Rodriguiz.jpg"></a><span class="b-isotope-grid__title">Victor </span>
+                                    <span class="b-isotope-grid__categorie">Pursue Scholar</span>
+                                    </span>
+                                    </span>
+                                </li>
+                                <li class="b-isotope-grid__item grid-item ui photography">
+                                    <div class="b-isotope-grid__img">
+                                        <img src="assets/images/scholars/Liannah-Foster.jpg" alt="foto" />
+                                    </div><span class="b-isotope-grid__wrap-info bg-grad-1"><span class="b-isotope-grid__info"><a class="icon fa fa-link" href="home.html"></a><a class="icon fa fa-search popup-modal" href="assets/images/scholars/Liannah-Foster.jpg"></a><span class="b-isotope-grid__title">Liannah </span>
+                                    <span class="b-isotope-grid__categorie">Pursue Scholar</span>
+                                    </span>
+                                    </span>
+                                </li>
+                                <li class="b-isotope-grid__item grid-item design animation">
+                                    <div class="b-isotope-grid__img">
+                                        <img src="assets/images/scholars/Talique-Taylor.jpg" alt="foto" />
+                                    </div><span class="b-isotope-grid__wrap-info bg-grad-1"><span class="b-isotope-grid__info"><a class="icon fa fa-link" href="home.html"></a><a class="icon fa fa-search popup-modal" href="assets/images/scholars/Talique-Taylor.jpg"></a><span class="b-isotope-grid__title">Talique </span>
+                                    <span class="b-isotope-grid__categorie">Pursue Scholar</span>
+                                    </span>
+                                    </span>
+                                </li>
+                                <li class="b-isotope-grid__item grid-item ui photography animation">
+                                    <div class="b-isotope-grid__img">
+                                        <img src="assets/images/scholars/madeja-sims.jpg" alt="foto" />
+                                    </div><span class="b-isotope-grid__wrap-info bg-grad-1"><span class="b-isotope-grid__info"><a class="icon fa fa-link" href="home.html"></a><a class="icon fa fa-search popup-modal" href="assets/images/scholars/madeja-sims.jpg"></a><span class="b-isotope-grid__title">Madeja </span>
+                                    <span class="b-isotope-grid__categorie">Pursue Scholar</span>
+                                    </span>
+                                    </span>
+                                </li>
+                                <li class="b-isotope-grid__item grid-item design">
+                                    <div class="b-isotope-grid__img">
+                                        <img src="assets/images/scholars/Danny-Magallanes.jpg" alt="foto" />
+                                    </div><span class="b-isotope-grid__wrap-info bg-grad-1"><span class="b-isotope-grid__info"><a class="icon fa fa-link" href="home.html"></a><a class="icon fa fa-search popup-modal" href="assets/images/scholars/Danny-Magallanes.jpg"></a><span class="b-isotope-grid__title">Danny</span>
+                                    <span class="b-isotope-grid__categorie">Pursue Scholar</span>
+                                    </span>
+                                    </span>
+                                </li>
+                                <li class="b-isotope-grid__item grid-item design photography">
+                                    <div class="b-isotope-grid__img">
+                                        <img src="assets/images/scholars/Moriah-Price.jpg" alt="foto" />
+                                    </div><span class="b-isotope-grid__wrap-info bg-grad-1"><span class="b-isotope-grid__info"><a class="icon fa fa-link" href="home.html"></a><a class="icon fa fa-search popup-modal" href="assets/images/scholars/Moriah-Price.jpg"></a><span class="b-isotope-grid__title">Mariah</span>
+                                    <span class="b-isotope-grid__categorie">Pursue Scholar</span>
+                                    </span>
+                                    </span>
+                                </li>
+                                <li class="b-isotope-grid__item grid-item design animation">
+                                    <div class="b-isotope-grid__img">
+                                        <img src="assets/images/scholars/Quinn-2.jpg" alt="foto" />
+                                    </div><span class="b-isotope-grid__wrap-info bg-grad-1"><span class="b-isotope-grid__info"><a class="icon fa fa-link" href="home.html"></a><a class="icon fa fa-search popup-modal" href="assets/images/scholars/Quinn-2.jpg"></a><span class="b-isotope-grid__title">Quinn</span>
+                                    <span class="b-isotope-grid__categorie">Pursue Scholar</span>
+                                    </span>
+                                    </span>
+                                </li>
+                                <li class="b-isotope-grid__item grid-item ui photography animation">
+                                    <div class="b-isotope-grid__img">
+                                        <img src="assets/images/scholars/Breena-Taylor.jpg" alt="foto" />
+                                    </div><span class="b-isotope-grid__wrap-info bg-grad-1"><span class="b-isotope-grid__info"><a class="icon fa fa-link" href="home.html"></a><a class="icon fa fa-search popup-modal" href="assets/images/scholars/Breena-Taylor.jpg"></a><span class="b-isotope-grid__title">Breena</span>
+                                    <span class="b-isotope-grid__categorie">Pursue Scholar</span>
+                                    </span>
+                                    </span>
+                                </li>
+                                <li class="b-isotope-grid__item grid-item ui photography animation">
+                                    <div class="b-isotope-grid__img">
+                                        <img src="assets/images/scholars/Joshua-Gwin.jpg" alt="foto" />
+                                    </div><span class="b-isotope-grid__wrap-info bg-grad-1"><span class="b-isotope-grid__info"><a class="icon fa fa-link" href="home.html"></a><a class="icon fa fa-search popup-modal" href="assets/images/scholars/Joshua-Gwin.jpg"></a><span class="b-isotope-grid__title">Joshua</span>
+                                    <span class="b-isotope-grid__categorie">Pursue Scholar</span>
+                                    </span>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- end .b-isotope-->
+                        <div class="text-center"><a class="btn btn-default" href="http://pursuescholars.org/" target="blank"><i class="icon"></i>learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-advantages area-bg area-bg_grad-1 parallax" style="background-image: url(assets/images/PursueScholars2020-124.JPG)">
+            <div class="area-bg__inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="ui-decor-1"></div>
+                            <div class="ui-subtitle-block">Pursue Unity's Donation Drive</div>
+                            <h2 class="ui-title-block">Please Donate</h2>
+                            <div class="ui-description">
+                                <p>We <span class="shuffle">would appreciate your generous donation for the support of our scholars.</span></p>
+                            </div>
+                            <div class="text-center"><a class="sp-layer btn btn-white" href="https://projectworldimpact.com/crowdfunding/pursue-unity-western-walk" target="blank"><i class="icon"></i>donate here</a></div>
+                        </div>
+                    </div>
+                    <div class="b-advantages-2-wrap wrap-inl-bl">
+                        <div class="row">
+                            <!-- 
+                                <div class="col-md-4">
+                                <div class="scrollme">
+                                    <div class="animateme" data-when="enter" data-from="0.5" data-to="0" data-opacity="1" data-translatex="-200" data-rotatez="0">
+                                        <section class="b-advantages b-advantages-2"><i class="b-advantages__icon helper"><span class="helper__child flaticon-computer"></span></i>
+                                            <h3 class="b-advantages__title ui-title-inner"><a class="text-primary_h" href="home.html">web development</a></h3>
+                                            <div class="b-advantages__info">Cabore dolore magna aliqua at enim minim veniam quis nostrud</div>
+                                        </section>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                             -->
+
+                            <!-- 
+                            <div class="col-md-4">
+                                <div class="scrollme">
+                                    <div class="animateme" data-when="enter" data-from="0.5" data-to="0" data-opacity="1" data-translatey="200" data-rotatez="0">
+
+                                        <section class="b-advantages b-advantages-2"><i class="b-advantages__icon helper"><span class="helper__child flaticon-luxury"></span></i>
+                                            <h3 class="b-advantages__title ui-title-inner"><a class="text-primary_h" href="home.html">cloud storage</a></h3>
+                                            <div class="b-advantages__info">Cabore dolore magna aliqua at enim minim veniam quis nostrud</div>
+                                        </section>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                             -->
+
+                            <!-- 
+                            <div class="col-md-4">
+                                <div class="scrollme">
+                                    <div class="animateme" data-when="enter" data-from="0.5" data-to="0" data-opacity="1" data-translatex="200" data-rotatez="0">
+                                        <section class="b-advantages b-advantages-2"><i class="b-advantages__icon helper"><span class="helper__child flaticon-technology"></span></i>
+                                            <h3 class="b-advantages__title ui-title-inner"><a class="text-primary_h" href="home.html">animation graphics</a></h3>
+                                            <div class="b-advantages__info">Cabore dolore magna aliqua at enim minim veniam quis nostrud</div>
+                                        </section>
+                                        
+                                    </div>
+                                </div>
+                            </div> 
+                            -->
+
+                            <!-- 
+                            <div class="col-md-4">
+                                <div class="scrollme">
+                                    <div class="animateme" data-when="enter" data-from="0.5" data-to="0" data-opacity="1" data-translatex="-200" data-rotatez="0">
+                                        <section class="b-advantages b-advantages-2"><i class="b-advantages__icon helper"><span class="helper__child flaticon-technology-1"></span></i>
+                                            <h3 class="b-advantages__title ui-title-inner"><a class="text-primary_h" href="home.html">event photography</a></h3>
+                                            <div class="b-advantages__info">Cabore dolore magna aliqua at enim minim veniam quis nostrud</div>
+                                        </section>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                             -->
+
+                            <!-- 
+                            <div class="col-md-4">
+                                <div class="scrollme">
+                                    <div class="animateme" data-when="enter" data-from="0.5" data-to="0" data-opacity="1" data-translatey="200" data-rotatez="0">
+                                        <section class="b-advantages b-advantages-2"><i class="b-advantages__icon helper"><span class="helper__child flaticon-armchair"></span></i>
+                                            <h3 class="b-advantages__title ui-title-inner"><a class="text-primary_h" href="home.html">business startup</a></h3>
+                                            <div class="b-advantages__info">Cabore dolore magna aliqua at enim minim veniam quis nostrud</div>
+                                        </section>
+                                        
+                                    </div>
+                                </div>
+                            </div> 
+                            -->
+
+                            <!-- 
+                            <div class="col-md-4">
+                                <div class="scrollme">
+                                    <div class="animateme" data-when="enter" data-from="0.5" data-to="0" data-opacity="1" data-translatex="200" data-rotatez="0">
+                                        <section class="b-advantages b-advantages-2"><i class="b-advantages__icon helper"><span class="helper__child flaticon-food"></span></i>
+                                            <h3 class="b-advantages__title ui-title-inner"><a class="text-primary_h" href="home.html">mobile applications</a></h3>
+                                            <div class="b-advantages__info">Cabore dolore magna aliqua at enim minim veniam quis nostrud</div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div> 
+                            -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-statistics">
+            <!-- <div class="area-bg__inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="ui-slogan">Working Together</div>
+                            <h2 class="ui-title-block ui-title-block_lg_mrg-btm text-primary">We Achieve More</h2>
+                            <div class="section-statistics__description">
+                                <p>Corem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod temp incidunt ut labore et dolore magna aliqua uat enim ad minim veniama quis nostrud ullamco lab oris nisi ut aliquip ex ea commodo consequat exercitation.</p>
+                            </div>
+                            <div class="img-decor-top">
+                                <img class="img-responsive" src="assets/images/background6.jpg" alt="foto">
+                                <div class="ui-decor-1 bg-primary"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="section-statistics__inner text-center">
+                                <h3 class="section-statistics__subtitle">With More than<span class="icon-grad icon-grad-2">9</span> Years of Experience</h3>
+                                <ul class="b-progress-list b-progress-list-1 list-unstyled">
+                                    <li class="b-progress-list__item clearfix"><span class="b-progress-list__percent js-chart" data-percent="326"><span class="js-percent"></span></span><span class="b-progress-list__name">Design Awards</span>
+                                    </li>
+                                    <li class="b-progress-list__item clearfix"><span class="b-progress-list__percent js-chart" data-percent="746"><span class="js-percent"></span></span><span class="b-progress-list__name">Projects Done</span>
+                                    </li>
+                                    <li class="b-progress-list__item clearfix"><span class="b-progress-list__percent js-chart" data-percent="648"><span class="js-percent"></span></span><span class="b-progress-list__name">Unique Ideas Submytted</span>
+                                    </li>
+                                    <li class="b-progress-list__item clearfix"><span class="b-progress-list__percent js-chart" data-percent="953"><span class="js-percent"></span></span><span class="b-progress-list__name">Glasses Of Coffee</span>
+                                    </li>
+                                </ul>
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+        <section class="section-area text-center">
+            <!-- <div class="section-team bg-grey">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="ui-decor-1"></div>
+                            <div class="ui-subtitle-block">Meet the Persons</div>
+                            <h2 class="ui-title-block text-primary">Team Members</h2>
+                            <div class="ui-description">We <span class="shuffle">have 10 years of Experienced in doing Beautiful & Creative Stuff</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+                      <!-- <li class="social-net__item"><a class="social-net__link text-primary_h" href="twitter.com"><i class="icon fa fa-twitter"></i></a> -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="b-team-carousel owl-carousel owl-theme enable-owl-carousel" data-min480="1" data-min768="3" data-min992="5" data-min1200="5" data-pagination="false" data-navigation="false" data-auto-play="4000" data-stop-on-hover="true">
+                        <!-- <section class="b-team">
+                            <div class="b-team__inner">
+                                <div class="b-team__media">
+                                    <img src="assets/media/components/b-team/1.png" alt="Foto" />
+                                </div>
+                            </div>
+                            <div class="b-team-hover bg-grad-1">
+                                <h3 class="b-team__name">sara anderson</h3>
+                                <div class="b-team__category">Designer</div>
+                                <ul class="social-net list-inline">
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="twitter.com"><i class="icon fa fa-twitter"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="facebook.com"><i class="icon fa fa-facebook"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="linkedin.com"><i class="icon fa fa-linkedin"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="plus.google.com"><i class="icon fa fa-google-plus"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section> -->
+                        <!-- end .b-team-->
+                        <!-- <section class="b-team">
+                            <div class="b-team__inner">
+                                <div class="b-team__media">
+                                    <img src="assets/media/components/b-team/2.png" alt="Foto" />
+                                </div>
+                            </div>
+                            <div class="b-team-hover bg-grad-1">
+                                <h3 class="b-team__name">chris donald</h3>
+                                <div class="b-team__category">Project Manager</div>
+                                <ul class="social-net list-inline">
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="twitter.com"><i class="icon fa fa-twitter"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="facebook.com"><i class="icon fa fa-facebook"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="linkedin.com"><i class="icon fa fa-linkedin"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="plus.google.com"><i class="icon fa fa-google-plus"></i></a>
+                                    </li>
+                                </ul>
+                    
+                            </div>
+                        </section> -->
+                        <!-- end .b-team-->
+                        <!-- <section class="b-team">
+                            <div class="b-team__inner">
+                                <div class="b-team__media">
+                                    <img src="assets/media/components/b-team/3.png" alt="Foto" />
+                                </div>
+                            </div>
+                            <div class="b-team-hover bg-grad-1">
+                                <h3 class="b-team__name">sarina williams</h3>
+                                <div class="b-team__category">Designer</div>
+                                <ul class="social-net list-inline">
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="twitter.com"><i class="icon fa fa-twitter"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="facebook.com"><i class="icon fa fa-facebook"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="linkedin.com"><i class="icon fa fa-linkedin"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="plus.google.com"><i class="icon fa fa-google-plus"></i></a>
+                                    </li>
+                                </ul>
+                             
+                            </div>
+                        </section> -->
+                        <!-- end .b-team-->
+                        <!-- <section class="b-team">
+                            <div class="b-team__inner">
+                                <div class="b-team__media">
+                                    <img src="assets/media/components/b-team/4.png" alt="Foto" />
+                                </div>
+                            </div>
+                            <div class="b-team-hover bg-grad-1">
+                                <h3 class="b-team__name">alex rasman</h3>
+                                <div class="b-team__category">Project Manager</div>
+                                <ul class="social-net list-inline">
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="facebook.com"><i class="icon fa fa-facebook"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="linkedin.com"><i class="icon fa fa-linkedin"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="plus.google.com"><i class="icon fa fa-google-plus"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section> -->
+                        <!-- end .b-team-->
+                        <!-- <section class="b-team">
+                            <div class="b-team__inner">
+                                <div class="b-team__media">
+                                    <img src="assets/media/components/b-team/1.png" alt="Foto" />
+                                </div>
+                            </div>
+                            <div class="b-team-hover bg-grad-1">
+                                <h3 class="b-team__name">sara anderson</h3>
+                                <div class="b-team__category">Designer</div>
+                                <ul class="social-net list-inline">
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="twitter.com"><i class="icon fa fa-twitter"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="facebook.com"><i class="icon fa fa-facebook"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="linkedin.com"><i class="icon fa fa-linkedin"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="plus.google.com"><i class="icon fa fa-google-plus"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section> -->
+                        <!-- end .b-team-->
+                        <!-- <section class="b-team">
+                            <div class="b-team__inner">
+                                <div class="b-team__media">
+                                    <img src="assets/media/components/b-team/2.png" alt="Foto" />
+                                </div>
+                            </div>
+                            <div class="b-team-hover bg-grad-1">
+                                <h3 class="b-team__name">chris donald</h3>
+                                <div class="b-team__category">Project Manager</div>
+                                <ul class="social-net list-inline">
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="twitter.com"><i class="icon fa fa-twitter"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="facebook.com"><i class="icon fa fa-facebook"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="linkedin.com"><i class="icon fa fa-linkedin"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="plus.google.com"><i class="icon fa fa-google-plus"></i></a>
+                                    </li>
+                                </ul>
+                               
+                            </div>
+                        </section> -->
+                        <!-- end .b-team-->
+
+                        <!-- <section class="b-team">
+                            <div class="b-team__inner">
+                                <div class="b-team__media">
+                                    <img src="assets/media/components/b-team/3.png" alt="Foto" />
+                                </div>
+                            </div>
+                            <div class="b-team-hover bg-grad-1">
+                                <h3 class="b-team__name">sarina williams</h3>
+                                <div class="b-team__category">Designer</div>
+                                <ul class="social-net list-inline">
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="twitter.com"><i class="icon fa fa-twitter"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="facebook.com"><i class="icon fa fa-facebook"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="linkedin.com"><i class="icon fa fa-linkedin"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="plus.google.com"><i class="icon fa fa-google-plus"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section> -->
+                        <!-- end .b-team-->
+                        <!-- <section class="b-team">
+                            <div class="b-team__inner">
+                                <div class="b-team__media">
+                                    <img src="assets/media/components/b-team/4.png" alt="Foto" />
+                                </div>
+                            </div>
+                            <div class="b-team-hover bg-grad-1">
+                                <h3 class="b-team__name">alex rasman</h3>
+                                <div class="b-team__category">Project Manager</div>
+                                <ul class="social-net list-inline">
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="twitter.com"><i class="icon fa fa-twitter"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="facebook.com"><i class="icon fa fa-facebook"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="linkedin.com"><i class="icon fa fa-linkedin"></i></a>
+                                    </li>
+                                    <li class="social-net__item"><a class="social-net__link text-primary_h" href="plus.google.com"><i class="icon fa fa-google-plus"></i></a>
+                                    </li>
+                                </ul>
+                               
+                            </div>
+                        </section> -->
+                      
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <div class="section-default">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="progress-block-group">
+                            <div class="progress-block">
+                                <div class="progress__title">web development</div>
+                                <div class="progress progress-w-number progress_background">
+                                    <div class="progress-bar bg-primary" style="width: 70%"></div><span class="progress-bar__number">70% / 100%</span>
+                                </div>
+                            </div>
+                            <div class="progress-block">
+                                <div class="progress__title">photography</div>
+                                <div class="progress progress-w-number progress_background">
+                                    <div class="progress-bar bg-primary" style="width: 95%"></div><span class="progress-bar__number">95% / 100%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress-block-group">
+                            <div class="progress-block">
+                                <div class="progress__title">branding</div>
+                                <div class="progress progress-w-number progress_background">
+                                    <div class="progress-bar bg-primary" style="width: 90%"></div><span class="progress-bar__number">90% / 100%</span>
+                                </div>
+                            </div>
+                            <div class="progress-block">
+                                <div class="progress__title">html 5 / css</div>
+                                <div class="progress progress-w-number progress_background">
+                                    <div class="progress-bar bg-primary" style="width: 85%"></div><span class="progress-bar__number">85% / 100%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="section-default b-blockquote-carousel bg-grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="text-center">
+                            <div class="ui-subtitle-block">What does Pursue Unity mean to our Scholors</div>
+                            <div class="bx-pager-nav" id="bx-pager_img">
+                                <a class="bx-pager-nav__item" data-slide-index="0" href="">
+                                    <img class="img-responsive" src="assets/images/scholars/Danny-Magallanes_thumb.jpg" alt="thumb">
+                                </a>
+                                <a class="bx-pager-nav__item" data-slide-index="1" href="">
+                                    <img class="img-responsive" src="assets/images/scholars/Victor-Rodriguiz_thumb.jpg" alt="thumb">
+                                </a>
+                                <a class="bx-pager-nav__item" data-slide-index="2" href="">
+                                    <img class="img-responsive" src="assets/images/scholars/madeja-sims_thumb.jpg" alt="thumb">
+                                </a>
+                                <a class="bx-pager-nav__item" data-slide-index="3" href="">
+                                    <img class="img-responsive" src="assets/images/scholars/Quinn-Curry_thumb.jpg" alt="thumb">
+                                </a>
+                            </div>
+                            <ul class="bxslider_w_img">
+                                <li>
+                                    <div class="b-blockquote b-blockquote-1 b-blockquote_w-quotes">
+                                        <blockquote>
+                                            <p>“ Unifying Chicago looks like getting to the point where you are able to share your beliefs with
+                                                others and remain in positive conversation. It is being able to understand one another, listen to one another, and put yourself in your neighbor's shoes…
+                                                
+                                                We also need to love each other at all times.  When we are able to do that we will be able to build from that and create stronger relationships
+                                                with our neighbors and greater community.
+                                                 ”</p>
+                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Danny</span><span class="b-blockquote__category">Senior @ Taylor University</span></cite>
+                                        </blockquote>
+                                    </div>
+                                    <!-- end .b-blockquote-->
+                                </li>
+                                <li>
+                                    <div class="b-blockquote b-blockquote-1 b-blockquote_w-quotes">
+                                        <blockquote>
+                                            <p>“ To me what unifying chicago looks like … is love by really getting to know your neighbor. At the end of the day you want communities across Chicago to really be strong communities where people know their neighbors and care for one another. Everything else will come naturally and organically.
+                                                ”</p>
+                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Victor </span><span class="b-blockquote__category">Junior @ Taylor University </span></cite>
+                                        </blockquote>
+                                    </div>
+                                    <!-- end .b-blockquote-->
+                                </li>
+                                <li>
+                                    <div class="b-blockquote b-blockquote-1 b-blockquote_w-quotes">
+                                        <blockquote>
+                                            <p>“ Pursue has helped me in many ways that I didn’t see for myself. Pursue gave me hope. Hope to make a change in my community by showing me other alumni’s who’ve come from the same community I come from. Pursue gave me a family. A family of other scholars who encourage me to stand up with my voice in and out of college especially at a PWI. All these and more that Pursue have made me stronger to make a change in Englewood and Taylor. I have learned a real understanding of Leadership through what I have been offered from other leaders from home. Deep conversations, Joy in your own culture, Not only educating but learning, and more. When you have people on your side like this program, You tend to want to be like them for others around you- family, peers, mentors, mentees and even neighbors. So thanks to Pursue for encouraging me to use my voice at Taylor University. That’s what leaders do.
+                                                ”</p>
+                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Madeja</span><span class="b-blockquote__category">Senior @ Taylor University</span></cite>
+                                        </blockquote>
+                                    </div>
+                                    <!-- end .b-blockquote-->
+                                </li>
+                                <li>
+                                    <div class="b-blockquote b-blockquote-1 b-blockquote_w-quotes">
+                                        <blockquote>
+                                            <p>“ Pursue has supported me in way more ways than just financially. Having a group of like minded students at Pursue has helped me build a network of people who will likely be doing big things in the future. Pursue, more than anything, has helped me develop in areas of communication because pursue as a whole is so diverse. It’s really preparing you for the next step after graduation.
+
+                                                ”</p>
+                                            <cite class="b-blockquote__cite" title="Blockquote Title"><span class="b-blockquote__author">Quinn </span><span class="b-blockquote__category"> Senior @ Multenoma University</span></cite>
+                                        </blockquote>
+                                    </div>
+                                    <!-- end .b-blockquote-->
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <section class="section-default">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="text-center">
+                            <div class="ui-decor-1"></div>
+                            <div class="ui-subtitle-block">What’s Happening</div>
+                            <h2 class="ui-title-block text-primary">News & Events</h2>
+                            <div class="ui-description">
+                                <p>We <span class="shuffle">have 10 years of Experienced in doing Beautiful & Creative Stuff</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <article class="b-post b-post-1 clearfix">
+                            <div class="entry-date">25<span class="entry-date__month">dec</span>
+                            </div>
+                            <div class="entry-main">
+                                <div class="entry-header">
+                                    <div class="entry-meta"><span class="entry-meta__item"><a class="entry-meta__link text-primary" href="blog-main.html">Startup,</a></span><span class="entry-meta__item"><a class="entry-meta__link text-primary" href="blog-main.html">Work,</a></span>
+                                        <span class="entry-meta__item"><a class="entry-meta__link text-primary" href="blog-main.html">Staff</a>
+                                                </span>
+                                    </div>
+                                    <h2 class="entry-title"><a href="blog-post.html">We take your design to next level</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Corem ipsum dolor sit amet consectetur bas adipisicing elit sed dui eiusmod temp inciduntut labore etusa dolore magna aliqua ut enim veniama quis nostrud ullamco laboris aliquip.</p>
+                                </div>
+                                <div class="entry-footer"><a class="btn btn-default" href="blog-post.html"><i class="icon"></i> read more</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-6">
+                        <article class="b-post b-post-1 clearfix">
+                            <div class="entry-date">09<span class="entry-date__month">jan</span>
+                            </div>
+                            <div class="entry-main">
+                                <div class="entry-header">
+                                    <div class="entry-meta"><span class="entry-meta__item"><a class="entry-meta__link text-primary" href="blog-main.html">Creativity,</a></span><span class="entry-meta__item"><a class="entry-meta__link text-primary" href="blog-main.html">Branding</a></span>
+                                    </div>
+                                    <h2 class="entry-title"><a href="blog-post.html">How to get started with a project</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Corem ipsum dolor sit amet consectetur bas adipisicing elit sed dui eiusmod temp inciduntut labore etusa dolore magna aliqua ut enim veniama quis nostrud ullamco laboris aliquip.</p>
+                                </div>
+                                <div class="entry-footer"><a class="btn btn-default" href="blog-post.html"><i class="icon"></i> read more</a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- <div class="owl-carousel owl-theme enable-owl-carousel" data-min480="1" data-min768="3" data-min992="3" data-min1200="3" data-pagination="false" data-navigation="false" data-auto-play="4000" data-stop-on-hover="true">
+            <img class="img-responsive" src="assets/media/content/carousel/1.jpg" alt="foto">
+            <img class="img-responsive" src="assets/media/content/carousel/2.jpg" alt="foto">
+            <img class="img-responsive" src="assets/media/content/carousel/3.jpg" alt="foto">
+            <img class="img-responsive" src="assets/media/content/carousel/1.jpg" alt="foto">
+            <img class="img-responsive" src="assets/media/content/carousel/2.jpg" alt="foto">
+            <img class="img-responsive" src="assets/media/content/carousel/3.jpg" alt="foto">
+            <img class="img-responsive" src="assets/media/content/carousel/1.jpg" alt="foto">
+            <img class="img-responsive" src="assets/media/content/carousel/2.jpg" alt="foto">
+            <img class="img-responsive" src="assets/media/content/carousel/3.jpg" alt="foto">
+        </div>
+        end carousel -->
+        <section class="b-info area-bg area-bg_grad-1 area-bg_op_90 parallax" style="background-image: url(assets/images/PursueScholars2020-172.JPG)">
+            <div class="area-bg__inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h3 class="b-info__title">Leading with Generosity</h3>
+                            <div class="b-info__label text-primary">Check out our generous Pursue Unity Sponsors</div>
+                            <div class="text-center"><a class="btn btn-default btn-lg" href="sponsors.html"><i class="icon"></i>Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end .b-info-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__main">
+                    <div class="ui-decor-1"></div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="footer-section">
+                                <a class="footer__logo" href="http://pursuescholars.org/" target="">
+                                    <img class="img-responsive" src="assets/images/PS logowt.png" alt="Logo" />
+                                </a>
+                                <div class="footer__info">
+                                    <p>We are presenting this Pursue Unity fund-raising event for the sucess of our scholars in their pursuit of success and serving the community.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-lg-offset-1 col-md-4">
+                            <section class="footer-section">
+                                <h3 class="footer-section__title ui-title-inner">useful links</h3>
+                                <ul class="footer-list list-unstyled">
+                                    <li class="footer-list__item"><a class="footer-list__link" href="http://pursuescholars.org/about/">About Us</a>
+                                    </li>
+                                    <li class="footer-list__item"><a class="footer-list__link" href="https://projectworldimpact.com/crowdfunding/pursue-unity-western-walk">Donate</a>
+                                    </li>
+                                    <li class="footer-list__item"><a class="footer-list__link" href="sponsors.html">Sponsors</a>
+                                    </li>
+                                    <li class="footer-list__item"><a class="footer-list__link" href="event.html">Pursue Unity Event</a>
+                                    </li>
+                                    <li class="footer-list__item"><a class="footer-list__link" href="https://docs.google.com/forms/d/e/1FAIpQLSfnlFgtt7T8P_3VHL9Rc8CUYoXW2FL1NXryWpGfkDC7AeYymw/viewform">Volunteer</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="col-md-4">
+                            <section class="footer-section footer-contact">
+                                <h3 class="footer-section__title ui-title-inner">contact info</h3>
+                                <div class="footer-contact__number">(219) 775-8571</div>
+                                <div class="footer-contact__info">
+                                    3219 W. Carroll Ave. Chicago, IL 60624
+                                    <br>pursuescholars@gmail.com</div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <ul class="footer-social-net list-inline">
+                    <li class="footer-social-net__item"><a class="footer-social-net__link" href="https://www.facebook.com/pursuescholars/">facebook</a>
+                    <li class="footer-social-net__item"><a class="footer-social-net__link" href="https://www.linkedin.com/groups/4796479/">LinkedIn</a>
+                    </li>
+                    <li class="footer-social-net__item"><a class="footer-social-net__link" href="https://www.instagram.com/pursuescholars/">instagram</a>
+                    </li>
+                </ul>
+                <div class="copyright__inner">©2020<a class="copyright__link" href="http://pursuescholars.org/"> Pursue Scholars </a>
+                </div>
+            </div>
+        </footer>
+        <!-- .footer-->
+    </div>
+    <!-- end layout-theme-->
+
+
+    <!-- ++++++++++++-->
+    <!-- MAIN SCRIPTS-->
+    <!-- ++++++++++++-->
+    <script src="assets/libs/jquery-1.12.4.min.js"></script>
+    <script src="assets/libs/jquery-migrate-1.2.1.js"></script>
+    <!-- Bootstrap-->
+    <script src="assets/libs/bootstrap/bootstrap.min.js"></script>
+    <!-- Color scheme-->
+    <script src="assets/plugins/switcher/js/dmss.js"></script>
+    <!-- Select customization & Color scheme-->
+    <script src="assets/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <!-- Slider-->
+    <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/plugins/bxslider/jquery.bxslider.min.js"></script>
+    <!-- Pop-up window-->
+    <script src="assets/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Headers scripts-->
+    <script src="assets/plugins/headers/slidebar.js"></script>
+    <script src="assets/plugins/headers/header.js"></script>
+    <!-- Mail scripts-->
+    <script src="assets/plugins/jqBootstrapValidation.js"></script>
+    <script src="assets/plugins/contact_me.js"></script>
+    <!-- Filter and sorting images-->
+    <script src="assets/plugins/isotope/isotope.pkgd.min.js"></script>
+    <script src="assets/plugins/isotope/imagesLoaded.js"></script>
+    <!-- Progress numbers-->
+    <script src="assets/plugins/rendro-easy-pie-chart/jquery.easypiechart.min.js"></script>
+    <script src="assets/plugins/rendro-easy-pie-chart/waypoints.min.js"></script>
+    <!-- Animations-->
+    <script src="assets/plugins/scrollreveal/scrollreveal.min.js"></script>
+    <script src="assets/plugins/animate/wow.min.js"></script>
+    <script src="assets/plugins/animate/jquery.shuffleLetters.js"></script>
+    <script src="assets/plugins/animate/jquery.scrollme.min.js"></script>
+    <!-- Main slider-->
+    <script src="assets/plugins/slider-pro/jquery.sliderPro.min.js"></script>
+    <!-- User customization-->
+    <script src="assets/js/custom.js"></script>
+</body>
+
 </html>
