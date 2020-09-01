@@ -4134,3 +4134,11 @@ blockquote cite {
 .list-tags__link:hover {
   color: #fff;
 }
+/* ======= Map ======= */
+
+.maprouteimg{
+  border: 3px solid black;
+  border-radius: 15px; 
+}
+
+
