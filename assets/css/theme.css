@@ -225,6 +225,9 @@ p + p {
   background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0)) no-repeat -2em 0;
   background-size: 2em 100%;
 }
+.donatebtn{
+  padding-bottom: 30px;
+}
 
 /* Images */
 .img-default {
