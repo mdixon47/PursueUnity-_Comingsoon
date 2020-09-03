@@ -4,16 +4,7 @@
 
 
 @media (min-width:1199px) and (max-width:1350px) {
-  .b-team .social-net__link {
-  }
-  .b-team .b-team-hover {
-    left: 0;
-    right: 0;
-  }
-  .b-progress-list-2 .b-progress-list__item {
-    margin-left: 0;
-    margin-right: 0;
-  }
+ 
 }
 
 /* end 767px-480px */
@@ -68,6 +59,7 @@
     margin-top: -20px;
     margin-left: -50px;
 }
+
     
 }
 
@@ -87,6 +79,14 @@
  
 }
 /* end 1199px-1350px */
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+
+
+  }
 
 
 
