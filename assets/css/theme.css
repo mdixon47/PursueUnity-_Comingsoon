@@ -4137,11 +4137,21 @@ blockquote cite {
 .list-tags__link:hover {
   color: #fff;
 }
-/* ======= Map ======= */
-
-.maprouteimg{
-  border: 3px solid black;
-  border-radius: 15px; 
+/* ======= Event Page ======= */
+.event_story h5 {
+  color: white;
 }
+.event_story p {
+  color: white;
+  text-align: justify;
+}
+.event_story ul {
+  text-align: left;
+  list-style-type: none;
+  color:#fff;
+  margin-right: 80px;
+}
+
+
 
 
